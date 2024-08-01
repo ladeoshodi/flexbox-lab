@@ -70,6 +70,11 @@ input {
   padding: 0 24px;
 }
 
+#subnav {
+  display: flex;
+  justify-content: space-between;
+}
+
 main {
   background-color: white;
   padding: 32px 72px;
