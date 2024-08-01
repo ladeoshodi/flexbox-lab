@@ -40,12 +40,6 @@ section {
   align-items: center;
 }
 
-#trending {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
 h1,
 h2 {
   text-align: center;
@@ -68,11 +62,6 @@ input {
   border-radius: 29px;
   border: 0px;
   padding: 0 24px;
-}
-
-#subnav {
-  display: flex;
-  justify-content: space-between;
 }
 
 main {
@@ -111,6 +100,8 @@ nav button {
 #subnav {
   padding: 32px 72px 0;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 #subnav button {
@@ -118,6 +109,12 @@ nav button {
   padding: 10px 16px;
   border: 1px solid black;
   background-color: white;
+}
+
+#trending {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 #trending p {
