@@ -33,6 +33,19 @@ section {
   padding: 24px 72px;
 }
 
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#trending {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 h1,
 h2 {
   text-align: center;
